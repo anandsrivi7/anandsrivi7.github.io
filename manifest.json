@@ -1,8 +1,8 @@
 {
-  "name": "OneSignal Example",
-  "short_name": "OneSignalExample",
-  "start_url": "/",
-  "display": "standalone",
+  "name": "My Test Notify",
+  "short_name": "Notify",
+  "start_url": "https://anandsrivi7.github.io/mygitrepo/",
+  "display": "Notifyme",
   "gcm_sender_id": "482941778795",
   "DO_NOT_CHANGE_GCM_SENDER_ID": "Do not change the GCM Sender ID"
 }
