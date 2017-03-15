@@ -1,4 +1,4 @@
-# mygitrepo
+# My Test Notify Site
 testsite
 echo "# mygitrepo" >> README.md
 git init
