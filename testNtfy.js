@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 function GetCCToken() {
 alert('start');
-   var msg = $('ntfymsg').val();
+   var msg = $('#ntfymsg').val();
    alert(msg);
 var obj = {
   "app_id": "1dc1937c-ba11-41b2-ac20-dbf2159d50ee",
