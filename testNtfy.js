@@ -4,12 +4,12 @@ $(document).ready(function(){
 
 function GetCCToken() {
 alert('start');
-var obj = '{
+var obj = {
   "app_id": "1dc1937c-ba11-41b2-ac20-dbf2159d50ee",
   "included_segments": ["All"],
   "data": {"foo": "bar"},
   "contents": {"en": "English Message"}
-}';
+};
 
 
 alert(obj);
