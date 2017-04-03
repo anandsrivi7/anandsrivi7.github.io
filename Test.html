@@ -4,7 +4,9 @@
 <title>Page Title</title>
   
   <link rel="manifest" href="/manifest.json">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script src="/testntfy.js"></script>
   <script>
     var OneSignal = window.OneSignal || [];
     OneSignal.push(["init", {
@@ -22,5 +24,7 @@
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 
+  <input id="clickme" onclick="GetCCToken();"> test click</input>
+  
 </body>
 </html>
