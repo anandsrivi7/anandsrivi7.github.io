@@ -22,7 +22,7 @@ alert(obj);
         dataType: "json",
         data: obj,
        beforeSend: function (xhr) {
-    xhr.setRequestHeader ("Authorization", "Basic M2I5ZjE5MmUtZDEzOC00MGQ4LTljMzItZDkwYmU3OTcyNGNj"));
+    xhr.setRequestHeader ("Authorization", "Basic M2I5ZjE5MmUtZDEzOC00MGQ4LTljMzItZDkwYmU3OTcyNGNj");
 },
         async: false,
         cache: false,
