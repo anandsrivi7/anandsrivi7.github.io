@@ -1,3 +1,7 @@
+$(document).ready(function(){
+   alert('loaded');
+});
+
 function GetCCToken() {
 alert('start');
 var obj = {
