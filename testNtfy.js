@@ -20,7 +20,7 @@ alert(obj);
         url: "https://onesignal.com/api/v1/notifications",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
-        data: obj,
+        data: JSON.stringify(obj),
        beforeSend: function (xhr) {
     xhr.setRequestHeader ("Authorization", "Basic M2I5ZjE5MmUtZDEzOC00MGQ4LTljMzItZDkwYmU3OTcyNGNj");
 },
