@@ -5,12 +5,15 @@ $(document).ready(function(){
 function GetCCToken() {
 alert('start');
    var msg = $('#ntfymsg').val();
+   var duration = $('#duration').val();
    alert(msg);
+   alert(duration);
 var obj = {
   "app_id": "1dc1937c-ba11-41b2-ac20-dbf2159d50ee",
   "included_segments": ["All"],
   "data": {"foo": "bar"},
-  "contents": {"en": msg}
+  "contents": {"en": msg},
+   "send_after": duration
 };
 
 
